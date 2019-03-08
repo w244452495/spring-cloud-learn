@@ -28,6 +28,8 @@ public class TestZuulFilter0 extends ZuulFilter {
 	public Object run() throws ZuulException {
 		logger.info("===========================" + token + "===========================");
 		logger.info("pre 1");
+		logger.info("pre 1");
+		logger.info("pre 1");
 		return null;
 	}
 
