@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: zuul
+Implementation-Version: 1.0.0
+Built-By: Lixin
+Implementation-Vendor-Id: com.lx.zuul
+Build-Jdk: 1.8.0_131
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/zuul
+Created-By: Maven Integration for Eclipse
+

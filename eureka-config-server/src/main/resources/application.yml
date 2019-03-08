@@ -1,0 +1,18 @@
+server:
+  port: 8078
+spring:
+  application:
+    name: eureka-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/w244452495/lixin-test.git
+          username: w244452495
+          password: 1230ak-47
+          search-paths: config
+  rabbitmq:
+    host: 192.168.0.17
+    port: 5672
+    username: root 
+    password: root

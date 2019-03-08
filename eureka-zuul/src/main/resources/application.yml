@@ -1,0 +1,9 @@
+server:
+  port: 8079
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+zuul:
+  routes:
+    eureka-client-consumer: /user/**
